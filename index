@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/w3schools.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="css/lginew.css">
+    <title>Auction state</title>
+    <style>
+        body {
+            font-family: "Helvetica", Georgia, Serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="wraper" style="background-image: url(img/istock_78125973_large-e1477336189389.jpg) ">
+        <header>
+            <!-- Navbar (sit on top) -->
+            <div class="w3-top">
+                <div class="w3-bar w3-padding w3-card" style="letter-spacing:4px;">
+                    <a href="#home" id="logo12" style="font-family: Helvetica">AUCTION STATES</a>
+                    <!-- Right-sided navbar links. Hide them on small screens -->
+                    <div id="top-bar1" class="w3-right w3-hide-small">
+                        <div class="w3-dropdown-hover">
+                            <span id="drop-service1" class="w3-button">Services</span>
+                            <div class="w3-dropdown-content" id="drop-content1">
+                                <p><a href="#">Pet</a></p>
+                                <p><a href="#">Furniture</a></p>
+                                <p><a href="#">Vehicles</a></p>
+                                <p><a href="#">Fragile goods</a></p>
+                                <p><a href="#">Home shifting</a></p>
+                                <p><a href="#">International Shipping</a></p>
+                            </div>
+                        </div>
+                        <a href="#how_it_works" class="w3-bar-item w3-button">how it works</a>
+                        <a class="w3-bar-item w3-button" onclick="document.getElementById('id01').style.display='block'">login</a>
+                        <a href="signup.html" class="w3-bar-item w3-button">signup</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p id="home-12"><strong>Welcome To The World Of Shipping. <br>Let Gets Started!!</strong></p>
+            </div>
+            <div>
+                <p id="home-13"><strong>Best Delivery Firm<br>At Your Budget</strong></p>
+            </div>
+            <div>
+
+            </div>
+            <div>
+                <div class="w3-dropdown-click">
+                    <span id="search-dropbox1" class="w3-button">Services</span>
+                    <div class="w3-dropdown-content" id="drop-content1">
+                        <p><a href="#">Pet</a></p>
+                        <p><a href="#">Furniture</a></p>
+                        <p><a href="#">Vehicles</a></p>
+                        <p><a href="#">Fragile goods</a></p>
+                        <p><a href="#">Home shifting</a></p>
+                        <p><a href="#">International Shipping</a></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </div>
+    <!-- The Modal -->
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+
+        <!--login components-->
+        <div class="loginBox">
+            <div class="glass">
+                <img src="avtar.png" class="user">
+                <h3>Sign in Here</h3>
+                <form>
+                    <div class="inputBox">
+                        <input type="text" name="" placeholder="Username">
+                        <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="" placeholder="Password">
+                        <span><i class="fa fa-lock" aria-hidden="true"></i></span>
+                    </div>
+                    <input type="submit" name="" value="Login">
+                </form>
+                <a href="#">Forget Password</a>
+            </div>
+        </div>
+        <!--end-->
+    </div>
+</body>
+
+</html>
