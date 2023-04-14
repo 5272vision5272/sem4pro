@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<link rel="stylesheet"  href="css/login2.css">
+</head>
+<body>
+<div id="login_div" class="main_div">
+	<h3>LOGIN</h3>
+
+	<input type="email" placeholder="Email..." id="email_field" />
+	<input type="password" placeholder="Password..."  id="password_field" />
+	<button onclick="login()">Login</button>
+	<a href="signup.html" style="color: white; text-decoration: underline;">Sign-up</a>
+
+</div>
+  <div id="user_div" class="loggedin_div">
+  	<h3>Welcome user</h3>
+  	<p>Welcome to auction state<a href="index1.html">click here for dashboard</a></p>
+  	<button onclick="logout()">Logout</button>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBGSwM2L8_F-ZfxkGk_FST6f96JvaQmuXw",
+    authDomain: "final-67707.firebaseapp.com",
+    databaseURL: "https://final-67707.firebaseio.com",
+    projectId: "final-67707",
+    storageBucket: "final-67707.appspot.com",
+    messagingSenderId: "978760965004"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="js/loginfirebase.js"></script>
+
+</body>
+</html>

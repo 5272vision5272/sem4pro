@@ -1,0 +1,35 @@
+
+/* Font ROBOTO */
+.roboto{
+    font-family: 'Roboto', sans-serif !important; 
+}
+
+/* custom background for panel  */
+.container{ 
+    padding-top: 50px !important;
+    background-color: #f5f5f5 !important;  
+}
+
+/* custom background header panel */
+.custom-header-panel{
+    background-color: #343a40 !important;
+    border-color: #004b8e !important;
+    color: white;
+}
+
+.no-margin-form-group {
+    margin: 0 !important;
+}
+.requerido {
+    color: red;
+}
+.btn-orange-md {
+    background: #FF791F !important;
+    border-bottom: 3px solid #ae4d13 !important;
+    color: white;
+}
+
+.btn-orange-md:hover {
+    background: #d86016 !important;
+    color: white !important;
+}
